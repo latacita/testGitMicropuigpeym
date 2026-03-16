@@ -8,4 +8,31 @@
 ====== ============================ ================================
 (01)    git clone https://github.com/latacita/testGitMicropuigpeym.git 
 (02)    git add bitacora.txt
-(03)    git commit -m "Paso 03"
+(03)    git commit -m "Paso 03", git push
+(04)    git branch RamaA
+(05)    git branch RamaB
+(06)    git checkout RamaA
+(07)    creo fichero fireccion.txt con direccion facultad de ciencias con provincia erronea
+(08)    git add direccion.txt, git commit -m "Paso08"
+(09)    git checkout RamaB
+(10)    edito fichero direccion.txt
+(11)    git add direccion.txt, git commit -m "Paso11"
+(12)    git checkout master
+(13)    git merge RamaA  (Fast forwARD)
+(14)    Git merge RamaB (CONFLICT (add/add): Merge conflict in direccion.txt //resuelvo el conflicto en el fichero
+(15)    git add direccion.txt, git commit
+(16)    git branch RamaC
+(17)    git checkout RamaC
+(18)    edito cp en direccion.txt
+(19)    git branch RamaD, git push origin -u RamaD, git checkout RamaD
+(20)    creo calificacion.txt
+(21)    git add calificacion.txt, git commit -m "paso21"
+(22)    git checkout RamaC
+(23)    actualiz bitacora
+(24)    git checkout master
+(25)    fast forwARD
+(26)    git merce RamaD // fastforward
+(27)    git merge RamaC // fastforward
+(28)    git tag Conseguido
+(29)    editar bitacora
+(30)    git push
