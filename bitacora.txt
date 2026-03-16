@@ -35,4 +35,4 @@
 (27)    git merge RamaC // fastforward
 (28)    git tag Conseguido
 (29)    editar bitacora
-(30)    git push
+(30)    git add *, git commit -m "Paso30", git push
